@@ -10,9 +10,9 @@ Saat ini saya sedang mendalami arsitektur **Microservices** (NestJs, Kafka) untu
 
 Ini adalah tiga proyek yang paling saya banggakan:
 
-1. **[Karavandi Marketplace (Proyek Skripsi)](https://github.com/mfadlieputrap/marketplace)**
-   * **Deskripsi:** Aplikasi Marketplace (skripsi) yang dibangun dari nol dengan arsitektur Microservices untuk menangani *security* (RBAC), *scalability* (Kafka), dan *efficiency* (Valkey).
-   * **Tech:** NestJs, Kafka, Valkey/Redis, MySQL, TypeORM, Podman.
+1. **[High-Availability Order Processing System](https://github.com/mfadlieputrap/resilience-order-processing-system)**
+   * **Deskripsi:** Sistem arsitektur Microservices *event-driven* yang menerapkan *Saga Pattern* untuk menjamin *distributed data consistency* dan *fault tolerance*. Terbukti andal menangani *high-load* (1.000 *concurrent users*) dengan mekanisme pemulihan otomatis via Kafka.
+   * **Tech:** NestJS, Apache Kafka, PostgreSQL, Docker, JMeter.
 
 2. **[Product Management API (Java)](https://github.com/mfadlieputrap/product-management-api)**
     * **Deskripsi:** API RESTful CRUD lengkap menggunakan Java Spring Boot. Menunjukkan arsitektur berlapis (Controller, Service, Repository), *testing* (JUnit, Mockito), dan dokumentasi (OpenAPI).

@@ -18,9 +18,9 @@ Ini adalah tiga proyek yang paling saya banggakan:
     * **Deskripsi:** Backend kolaborasi real-time (mirip Trello) yang dirancang untuk high concurrency. Mengimplementasikan arsitektur Pub/Sub menggunakan Redis (Valkey) adapter untuk memungkinkan horizontal scaling pada WebSocket server. Menggunakan logika Lexorank (Floating point) untuk efisiensi drag-and-drop persistence.
     * **Tech:** NestJS, Socket.io, Redis (Valkey), PostgreSQL, Prisma, Docker.
 
-3. **[Product Management API (Java)](https://github.com/mfadlieputrap/product-management-api)**
-    * **Deskripsi:** API RESTful CRUD lengkap menggunakan Java Spring Boot. Menunjukkan arsitektur berlapis (Controller, Service, Repository), *testing* (JUnit, Mockito), dan dokumentasi (OpenAPI).
-    * **Tech:** Java 21, Spring Boot 3, Spring Data JPA, H2, JUnit 5.
+3. **[GhostLink - Zero-Knowledge Secure Messaging](https://github.com/mfadlieputrap/ghostlink)**
+    * **Deskripsi:** Aplikasi pesan rahasia dengan arsitektur Zero-Knowledge dan mekanisme Self-Destruct. Server hanya menyimpan encrypted blob tanpa pernah memiliki akses ke kunci dekripsi (kunci bersifat ephemeral dan dikirim via URL fragment). Menggunakan standar keamanan tinggi (AES-256-GCM untuk payload & Ed25519 signing).
+    * **Tech:** NestJS, Next.js 15, PASETO (v4), PostgreSQL, Crypto Module.
 
   
 ---
@@ -39,7 +39,7 @@ Ini adalah tiga proyek yang paling saya banggakan:
 **Database & Data:**
 * PostgreSQL, MySQL, MongoDB
 * Kafka, Valkey (Redis)
-* Spring Data JPA, TypeORM, Mongoose
+* Spring Data JPA, TypeORM, Mongoose, Prisma
 
 **Lainnya:**
 * Git, Podman (Docker), Linux
